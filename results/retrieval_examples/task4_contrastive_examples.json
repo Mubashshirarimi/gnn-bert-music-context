@@ -1,0 +1,242 @@
+[
+  {
+    "query_caption": "The track is titled 'Tranquilitatis' by DAC Crowell, from the album 'Red-shifted Harmonies'.",
+    "ground_truth_clip": "5426",
+    "retrieved": [
+      {
+        "clip_id": "14625",
+        "caption": "The track is titled 'Red-shifted Harmonies' by DAC Crowell, from the album 'Red-shifted Harmonies'.",
+        "score": 0.4809111952781677,
+        "correct": false
+      },
+      {
+        "clip_id": "21967",
+        "caption": "The track is titled 'Day Dreams - And Thirst is Quenched' by Paul Avgerinos, from the album 'Balancing Spheres'.",
+        "score": 0.4347906708717346,
+        "correct": false
+      },
+      {
+        "clip_id": "4079",
+        "caption": "The track is titled 'Running Depth' by DAC Crowell, from the album 'Within This Space'. Listeners also described it as: airy, drone.",
+        "score": 0.42728427052497864,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'Aria_ Impara ingrata' by Philharmonia Baroque Orchestra, from the album 'Handel - Atalanta CD1'.",
+    "ground_truth_clip": "45102",
+    "retrieved": [
+      {
+        "clip_id": "52830",
+        "caption": "The track is titled 'Liebster Jesu mein Veriangen Aria' by Sarasa Ensemble Labelle Sylvan, from the album 'Bach Cantatas'.",
+        "score": 0.5368074178695679,
+        "correct": false
+      },
+      {
+        "clip_id": "52831",
+        "caption": "The track is titled 'Liebster Jesu mein Veriangen Aria' by Sarasa Ensemble Labelle Sylvan, from the album 'Bach Cantatas'.",
+        "score": 0.5286599397659302,
+        "correct": false
+      },
+      {
+        "clip_id": "52828",
+        "caption": "The track is titled 'Liebster Jesu mein Veriangen Aria' by Sarasa Ensemble Labelle Sylvan, from the album 'Bach Cantatas'.",
+        "score": 0.5265740156173706,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'Villancico_ poys dezeys que me quereys ben' by Jacob Heringman and Catherine King, from the album 'Luis Milan El Maestro'.",
+    "ground_truth_clip": "5534",
+    "retrieved": [
+      {
+        "clip_id": "25925",
+        "caption": "The track is titled 'Ar ne kuth ich sorghe non' by Briddes Roune, from the album 'Lenten is come'.",
+        "score": 0.4748700261116028,
+        "correct": false
+      },
+      {
+        "clip_id": "46902",
+        "caption": "The track is titled 'Stond wel moder under roode' by Briddes Roune, from the album 'Lenten is come'.",
+        "score": 0.44609010219573975,
+        "correct": false
+      },
+      {
+        "clip_id": "25928",
+        "caption": "The track is titled 'Ar ne kuth ich sorghe non' by Briddes Roune, from the album 'Lenten is come'.",
+        "score": 0.43219298124313354,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'Vulkanmusik' by Hans Christian, from the album 'Surrender'. Listeners also described it as: space.",
+    "ground_truth_clip": "38195",
+    "retrieved": [
+      {
+        "clip_id": "20813",
+        "caption": "The track is titled 'Wings Over Water' by Tilopa, from the album 'Out of the Blue'.",
+        "score": 0.37962841987609863,
+        "correct": false
+      },
+      {
+        "clip_id": "115",
+        "caption": "The track is titled '1x3' by Tilopa, from the album 'Turkishauch'.",
+        "score": 0.3426201641559601,
+        "correct": false
+      },
+      {
+        "clip_id": "37948",
+        "caption": "The track is titled 'Theoria (Human Response)' by Magnatune, from the album 'Relaxation Spa'. Listeners also described it as: light, organ.",
+        "score": 0.31639236211776733,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'After (Claire Fitch)' by Magnatune, from the album 'Relaxation Spa'.",
+    "ground_truth_clip": "25772",
+    "retrieved": [
+      {
+        "clip_id": "19498",
+        "caption": "The track is titled 'Sartinal II' by Ivilion, from the album 'Sartinal'. Listeners also described it as: dark.",
+        "score": 0.3979629576206207,
+        "correct": false
+      },
+      {
+        "clip_id": "18748",
+        "caption": "The track is titled 'Nightheat' by Shiva In Exile, from the album 'Ethnic'. Listeners also described it as: dark.",
+        "score": 0.3542899489402771,
+        "correct": false
+      },
+      {
+        "clip_id": "36723",
+        "caption": "The track is titled 'Oriental Distortion' by Shiva In Exile, from the album 'Ethnic'.",
+        "score": 0.3413766622543335,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled '-Manu Yu-' by The Headroom Project, from the album 'Jetuton Andawai'. Listeners also described it as: percussion.",
+    "ground_truth_clip": "25613",
+    "retrieved": [
+      {
+        "clip_id": "9166",
+        "caption": "The track is titled 'Rachmaninov-Bless the Lord O My Soul' by Kyiv Chamber Choir, from the album 'Praise the Lord'. Listeners also described it as: calm, low.",
+        "score": 0.42661720514297485,
+        "correct": false
+      },
+      {
+        "clip_id": "41447",
+        "caption": "The track is titled 'This dry earth' by Jade Leary, from the album 'Fossildawn'.",
+        "score": 0.419555127620697,
+        "correct": false
+      },
+      {
+        "clip_id": "35718",
+        "caption": "The track is titled 'HiFuMi-Chor' by Tilopa, from the album 'Turkishauch'.",
+        "score": 0.4094802439212799,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'Overreacting' by Brad Sucks, from the album 'I Dont Know What Im Doing'.",
+    "ground_truth_clip": "40368",
+    "retrieved": [
+      {
+        "clip_id": "22590",
+        "caption": "The track is titled 'GodOfHate' by Atomic Opera, from the album 'Penguin Dust'.",
+        "score": 0.4617941975593567,
+        "correct": false
+      },
+      {
+        "clip_id": "6157",
+        "caption": "The track is titled 'At Least You've Been Told (Arthur Yoria)' by Various Artists, from the album 'South by Southwest Compilation'.",
+        "score": 0.45878082513809204,
+        "correct": false
+      },
+      {
+        "clip_id": "39179",
+        "caption": "The track is titled 'Electric Frankenstein_ New Rage' by Magnatune Compilation, from the album 'High Energy Rock and Roll'.",
+        "score": 0.4536944031715393,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'Addis Red Dub' by Burning Babylon, from the album 'Stereo Mash Up'.",
+    "ground_truth_clip": "5983",
+    "retrieved": [
+      {
+        "clip_id": "52245",
+        "caption": "The track is titled 'Version Killer' by Burning Babylon, from the album 'Stereo Mash Up'.",
+        "score": 0.5040431022644043,
+        "correct": false
+      },
+      {
+        "clip_id": "13729",
+        "caption": "The track is titled 'Lydfabrikk' by Memories of Tomorrow, from the album 'Waiting for Dawn'.",
+        "score": 0.4926401376724243,
+        "correct": false
+      },
+      {
+        "clip_id": "47265",
+        "caption": "The track is titled 'Toxic' by Pain Factor, from the album '8 Seconds'.",
+        "score": 0.4883943796157837,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'center of the trapezium' by Joram, from the album 'Moments of Clarity'.",
+    "ground_truth_clip": "12078",
+    "retrieved": [
+      {
+        "clip_id": "19018",
+        "caption": "The track is titled 'Phantoms' by Hans Christian, from the album 'Phantoms'.",
+        "score": 0.47821611166000366,
+        "correct": false
+      },
+      {
+        "clip_id": "12045",
+        "caption": "The track is titled 'Cantillation' by DAC Crowell, from the album 'Within This Space'.",
+        "score": 0.3938983082771301,
+        "correct": false
+      },
+      {
+        "clip_id": "36723",
+        "caption": "The track is titled 'Oriental Distortion' by Shiva In Exile, from the album 'Ethnic'.",
+        "score": 0.3936084508895874,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "query_caption": "The track is titled 'One at a Time (Burnshee Thornside)' by Magnatune.com, from the album 'Magnatune At The CC Salon'.",
+    "ground_truth_clip": "50306",
+    "retrieved": [
+      {
+        "clip_id": "46622",
+        "caption": "The track is titled 'Retroscope' by Jade Leary, from the album 'Fossildawn'.",
+        "score": 0.40551090240478516,
+        "correct": false
+      },
+      {
+        "clip_id": "50868",
+        "caption": "The track is titled 'The camp' by Jade Leary, from the album 'Fossildawn'. Listeners also described it as: funky.",
+        "score": 0.3823460638523102,
+        "correct": false
+      },
+      {
+        "clip_id": "40025",
+        "caption": "The track is titled 'Mare Cheia (High Tide) (Anamar)' by Various Artists, from the album 'The Art of Persuasion'. Listeners also described it as: spanish.",
+        "score": 0.3710826635360718,
+        "correct": false
+      }
+    ]
+  }
+]

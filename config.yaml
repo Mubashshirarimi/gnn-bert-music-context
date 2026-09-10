@@ -1,0 +1,114 @@
+# Central configuration for the GNN-BERT music context project.
+# Every script reads this file; override any field from the command line with
+#   --set section.key=value
+
+seed: 42
+device: cuda            # cuda | cpu
+
+paths:
+  raw_dir: data/raw/mtat
+  processed_dir: data/processed
+  splits_dir: data/splits
+  results_dir: results
+  plots_dir: results/plots
+  retrieval_dir: results/retrieval_examples
+
+data:
+  dataset: mtat
+  # MagnaTagATune ships 188 tags; the community-standard benchmark keeps the
+  # 50 most frequent. Everything below the cut is used as *auxiliary* text
+  # context rather than as a label.
+  top_k_tags: 50
+  # Clips whose audio is missing/corrupt (MTAT has a few zero-byte mp3s) are
+  # dropped during preprocessing.
+  min_clip_seconds: 20.0
+  # Official MTAT split by directory prefix (Won et al. convention):
+  # folders 0-b -> train, c -> validation, d-f -> test. This splits by
+  # *album folder*, which is what prevents artist/album leakage.
+  split_by: folder
+  train_folders: ["0","1","2","3","4","5","6","7","8","9","a","b"]
+  val_folders:   ["c"]
+  test_folders:  ["d","e","f"]
+
+audio:
+  sample_rate: 22050
+  n_fft: 2048
+  hop_length: 512
+  n_mels: 128
+  n_chroma: 12
+  fmin: 30.0
+  fmax: 11025.0
+  # Fixed-window segmentation. MTAT clips are ~29 s, so 5 s windows with 50%
+  # overlap give ~11 segments per clip.
+  segment_seconds: 5.0
+  segment_overlap: 0.5
+  max_segments: 16
+
+graph:
+  # Segment graph: temporal adjacency edges always, plus similarity edges
+  # between segments whose cosine similarity exceeds the threshold.
+  similarity_threshold: 0.85
+  # Cap similarity edges per node so dense repetitive tracks do not blow up
+  # into near-complete graphs.
+  max_similarity_neighbors: 4
+  add_self_loops: true
+  # Chord graph: template-matched major/minor triads from chroma.
+  chord_min_frames: 4
+  include_chord_graph: true
+
+text:
+  model_name: bert-base-uncased
+  max_length: 128
+  # Which fields build the natural-language context string. MTAT tags are the
+  # prediction target, so they are NOT used as input; only metadata and the
+  # long-tail auxiliary tags (rank > top_k_tags) are.
+  use_metadata: true
+  use_auxiliary_tags: true
+  freeze_bert: false
+  # Number of transformer layers to keep trainable (-1 = all).
+  unfreeze_last_n: 4
+
+model:
+  gnn:
+    conv: sage            # sage | gat
+    hidden_dim: 256
+    num_layers: 3
+    dropout: 0.2
+    heads: 4              # GAT only
+    readout: mean_max     # mean | max | mean_max
+  fusion:
+    mode: cross_attention # cross_attention | concat | gnn_only | bert_only
+    hidden_dim: 512
+    num_heads: 8
+    dropout: 0.3
+  emotion:
+    enabled: false        # requires DEAM; see scripts/download_deam.py
+    loss_weight: 0.5
+
+train:
+  epochs: 30
+  batch_size: 32
+  lr: 1.0e-3
+  bert_lr: 2.0e-5         # much smaller LR for pretrained weights
+  weight_decay: 1.0e-4
+  warmup_ratio: 0.06
+  grad_clip: 1.0
+  num_workers: 4
+  amp: true               # mixed precision; important on an 8 GB GPU
+  early_stopping_patience: 6
+  monitor: val_macro_f1   # metric used for checkpoint selection
+
+contrastive:
+  temperature: 0.07
+  batch_size: 64
+  epochs: 20
+  lr: 1.0e-4
+  embed_dim: 256
+  recall_at_k: [1, 5, 10]
+
+eval:
+  # Decision threshold for turning tag probabilities into binary predictions.
+  # "search" picks the per-tag threshold maximising validation F1.
+  threshold: search
+  tsne_samples: 2000
+  tsne_perplexity: 30

@@ -1,0 +1,35 @@
+# Core deep learning stack.
+# torch / torchaudio are installed from the PyTorch CUDA index, not PyPI:
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+torch>=2.5
+torchaudio>=2.5
+
+# Graph neural networks. PyG >=2.4 is pure Python for the layers we use
+# (SAGEConv / GATConv / global pooling), so torch-scatter and torch-sparse
+# are NOT required.
+torch-geometric>=2.5
+
+# Text encoder.
+transformers>=4.40
+tokenizers>=0.19
+
+# Data handling and metrics.
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+scipy>=1.11
+
+# Audio I/O. soundfile >=0.12 bundles libsndfile >=1.1, which decodes MP3
+# natively, so no ffmpeg or librosa/numba dependency is needed.
+soundfile>=0.12
+
+# Plotting and notebooks.
+matplotlib>=3.8
+seaborn>=0.13
+jupyter>=1.0
+ipykernel>=6.29
+
+# Utilities.
+pyyaml>=6.0
+tqdm>=4.66
+networkx>=3.2

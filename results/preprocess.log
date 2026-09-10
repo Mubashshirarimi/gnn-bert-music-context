@@ -1,0 +1,36 @@
+15:53:17 | INFO    | Extracting mp3.zip -> E:\425 final project\gnn-bert-music-context\data\raw\mtat\audio (this takes a few minutes)
+15:53:36 | INFO    | Extraction complete: 25863 mp3 files
+15:53:36 | INFO    | Building manifest from annotations...
+15:53:40 | INFO    | Manifest: 21355 clips | 50 label tags | 84 auxiliary tags
+15:53:40 | INFO    | Split sizes: {'train': 15425, 'test': 4392, 'val': 1538}
+15:53:40 | INFO    | --limit active: 300 clips retained
+15:53:40 | INFO    | Processing 300 clips with 10 workers...
+15:54:07 | INFO    | Succeeded: 300 | failed: 0
+15:54:07 | INFO    | Saved train: 100 graphs, mel (100, 128, 256)
+15:54:07 | INFO    | Saved val: 100 graphs, mel (100, 128, 256)
+15:54:07 | INFO    | Saved test: 100 graphs, mel (100, 128, 256)
+15:54:07 | INFO    | Exported 20 example graphs to E:\425 final project\gnn-bert-music-context\data\processed\examples
+15:54:07 | INFO    | Done. Node feature dim = 280
+15:55:19 | INFO    | Building manifest from annotations...
+15:55:23 | INFO    | Manifest: 21355 clips | 50 label tags | 84 auxiliary tags
+15:55:23 | INFO    | Split sizes: {'train': 15425, 'test': 4392, 'val': 1538}
+15:55:24 | INFO    | --limit active: 300 clips retained
+15:55:24 | INFO    | Split train: processing 100 clips with 10 workers...
+15:55:37 | INFO    | Saved train: 100 graphs, mel (100, 128, 256)
+15:55:37 | INFO    | Exported 20 example graphs to E:\425 final project\gnn-bert-music-context\data\processed\examples
+15:55:37 | INFO    | Split val: processing 100 clips with 10 workers...
+15:55:50 | INFO    | Saved val: 100 graphs, mel (100, 128, 256)
+15:55:50 | INFO    | Split test: processing 100 clips with 10 workers...
+15:56:03 | INFO    | Saved test: 100 graphs, mel (100, 128, 256)
+15:56:03 | INFO    | Done. 300 clips kept | node feature dim = 280
+16:02:30 | INFO    | Building manifest from annotations...
+16:02:34 | INFO    | Manifest: 21355 clips | 50 label tags | 84 auxiliary tags
+16:02:34 | INFO    | Split sizes: {'train': 15425, 'test': 4392, 'val': 1538}
+16:02:34 | INFO    | Split train: processing 15425 clips with 10 workers...
+16:11:36 | INFO    | Saved train: 15425 graphs, mel (15425, 128, 256)
+16:11:36 | INFO    | Exported 20 example graphs to E:\425 final project\gnn-bert-music-context\data\processed\examples
+16:11:37 | INFO    | Split val: processing 1538 clips with 10 workers...
+16:12:44 | INFO    | Saved val: 1538 graphs, mel (1538, 128, 256)
+16:12:44 | INFO    | Split test: processing 4392 clips with 10 workers...
+16:15:24 | INFO    | Saved test: 4392 graphs, mel (4392, 128, 256)
+16:15:24 | INFO    | Done. 21355 clips kept | node feature dim = 280

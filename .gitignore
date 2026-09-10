@@ -1,0 +1,35 @@
+# Datasets and derived artefacts - regenerate with scripts/download_data.py + preprocess.py
+data/raw/**
+data/processed/**
+!data/processed/examples/
+!data/processed/examples/**
+!data/raw/.gitkeep
+
+# Model checkpoints are large; results tables and plots are committed.
+results/checkpoints/
+results/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# LaTeX build products
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+report/*.fdb_latexmk
+report/*.fls
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

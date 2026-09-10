@@ -1,0 +1,282 @@
+[
+  {
+    "num_nodes": 32,
+    "num_segments": 10,
+    "num_chords": 22,
+    "num_edges": 460,
+    "edges_by_type": {
+      "temporal": 50,
+      "similarity": 80,
+      "chord_transition": 110,
+      "membership": 220
+    },
+    "feature_dim": 280,
+    "clip_id": 29
+  },
+  {
+    "num_nodes": 31,
+    "num_segments": 10,
+    "num_chords": 21,
+    "num_edges": 399,
+    "edges_by_type": {
+      "temporal": 49,
+      "similarity": 80,
+      "chord_transition": 92,
+      "membership": 178
+    },
+    "feature_dim": 280,
+    "clip_id": 39
+  },
+  {
+    "num_nodes": 33,
+    "num_segments": 10,
+    "num_chords": 23,
+    "num_edges": 386,
+    "edges_by_type": {
+      "temporal": 51,
+      "similarity": 68,
+      "chord_transition": 89,
+      "membership": 178
+    },
+    "feature_dim": 280,
+    "clip_id": 40
+  },
+  {
+    "num_nodes": 28,
+    "num_segments": 10,
+    "num_chords": 18,
+    "num_edges": 359,
+    "edges_by_type": {
+      "temporal": 46,
+      "similarity": 80,
+      "chord_transition": 75,
+      "membership": 158
+    },
+    "feature_dim": 280,
+    "clip_id": 44
+  },
+  {
+    "num_nodes": 34,
+    "num_segments": 10,
+    "num_chords": 24,
+    "num_edges": 464,
+    "edges_by_type": {
+      "temporal": 52,
+      "similarity": 80,
+      "chord_transition": 120,
+      "membership": 212
+    },
+    "feature_dim": 280,
+    "clip_id": 48
+  },
+  {
+    "num_nodes": 33,
+    "num_segments": 10,
+    "num_chords": 23,
+    "num_edges": 457,
+    "edges_by_type": {
+      "temporal": 51,
+      "similarity": 80,
+      "chord_transition": 100,
+      "membership": 226
+    },
+    "feature_dim": 280,
+    "clip_id": 49
+  },
+  {
+    "num_nodes": 33,
+    "num_segments": 10,
+    "num_chords": 23,
+    "num_edges": 424,
+    "edges_by_type": {
+      "temporal": 51,
+      "similarity": 80,
+      "chord_transition": 99,
+      "membership": 194
+    },
+    "feature_dim": 280,
+    "clip_id": 50
+  },
+  {
+    "num_nodes": 29,
+    "num_segments": 10,
+    "num_chords": 19,
+    "num_edges": 357,
+    "edges_by_type": {
+      "temporal": 47,
+      "similarity": 80,
+      "chord_transition": 70,
+      "membership": 160
+    },
+    "feature_dim": 280,
+    "clip_id": 51
+  },
+  {
+    "num_nodes": 32,
+    "num_segments": 10,
+    "num_chords": 22,
+    "num_edges": 396,
+    "edges_by_type": {
+      "temporal": 50,
+      "similarity": 80,
+      "chord_transition": 86,
+      "membership": 180
+    },
+    "feature_dim": 280,
+    "clip_id": 53
+  },
+  {
+    "num_nodes": 32,
+    "num_segments": 10,
+    "num_chords": 22,
+    "num_edges": 461,
+    "edges_by_type": {
+      "temporal": 50,
+      "similarity": 80,
+      "chord_transition": 117,
+      "membership": 214
+    },
+    "feature_dim": 280,
+    "clip_id": 56
+  },
+  {
+    "num_nodes": 33,
+    "num_segments": 10,
+    "num_chords": 23,
+    "num_edges": 399,
+    "edges_by_type": {
+      "temporal": 51,
+      "similarity": 70,
+      "chord_transition": 112,
+      "membership": 166
+    },
+    "feature_dim": 280,
+    "clip_id": 63
+  },
+  {
+    "num_nodes": 32,
+    "num_segments": 10,
+    "num_chords": 22,
+    "num_edges": 343,
+    "edges_by_type": {
+      "temporal": 50,
+      "similarity": 80,
+      "chord_transition": 69,
+      "membership": 144
+    },
+    "feature_dim": 280,
+    "clip_id": 66
+  },
+  {
+    "num_nodes": 34,
+    "num_segments": 10,
+    "num_chords": 24,
+    "num_edges": 435,
+    "edges_by_type": {
+      "temporal": 52,
+      "similarity": 80,
+      "chord_transition": 109,
+      "membership": 194
+    },
+    "feature_dim": 280,
+    "clip_id": 67
+  },
+  {
+    "num_nodes": 34,
+    "num_segments": 10,
+    "num_chords": 24,
+    "num_edges": 444,
+    "edges_by_type": {
+      "temporal": 52,
+      "similarity": 80,
+      "chord_transition": 106,
+      "membership": 206
+    },
+    "feature_dim": 280,
+    "clip_id": 71
+  },
+  {
+    "num_nodes": 34,
+    "num_segments": 10,
+    "num_chords": 24,
+    "num_edges": 429,
+    "edges_by_type": {
+      "temporal": 52,
+      "similarity": 80,
+      "chord_transition": 105,
+      "membership": 192
+    },
+    "feature_dim": 280,
+    "clip_id": 73
+  },
+  {
+    "num_nodes": 32,
+    "num_segments": 10,
+    "num_chords": 22,
+    "num_edges": 446,
+    "edges_by_type": {
+      "temporal": 50,
+      "similarity": 80,
+      "chord_transition": 100,
+      "membership": 216
+    },
+    "feature_dim": 280,
+    "clip_id": 74
+  },
+  {
+    "num_nodes": 29,
+    "num_segments": 10,
+    "num_chords": 19,
+    "num_edges": 331,
+    "edges_by_type": {
+      "temporal": 47,
+      "similarity": 80,
+      "chord_transition": 62,
+      "membership": 142
+    },
+    "feature_dim": 280,
+    "clip_id": 76
+  },
+  {
+    "num_nodes": 34,
+    "num_segments": 10,
+    "num_chords": 24,
+    "num_edges": 426,
+    "edges_by_type": {
+      "temporal": 52,
+      "similarity": 80,
+      "chord_transition": 100,
+      "membership": 194
+    },
+    "feature_dim": 280,
+    "clip_id": 78
+  },
+  {
+    "num_nodes": 32,
+    "num_segments": 10,
+    "num_chords": 22,
+    "num_edges": 397,
+    "edges_by_type": {
+      "temporal": 50,
+      "similarity": 80,
+      "chord_transition": 85,
+      "membership": 182
+    },
+    "feature_dim": 280,
+    "clip_id": 79
+  },
+  {
+    "num_nodes": 30,
+    "num_segments": 10,
+    "num_chords": 20,
+    "num_edges": 400,
+    "edges_by_type": {
+      "temporal": 48,
+      "similarity": 80,
+      "chord_transition": 92,
+      "membership": 180
+    },
+    "feature_dim": 280,
+    "clip_id": 80
+  }
+]
